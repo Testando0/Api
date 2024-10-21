@@ -13,4 +13,4 @@ RUN rm -rf renderbfanarrowx.zip
 COPY . .
 RUN chmod +x ./start.sh
 EXPOSE 5000 3000
-CMD ["sh", "-c", "./start.sh & ./main.sh"]
+CMD ["sh", "-c", "./start.sh"]
